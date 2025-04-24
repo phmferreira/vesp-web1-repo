@@ -1,1 +1,5 @@
 Aqui é a nossa página principal
+
+campo para receber nome aluno
+código para buscar dados do aluno no banco de dados
+apresentação dos dados do aluno buscado
