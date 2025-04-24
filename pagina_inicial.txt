@@ -1,5 +1,6 @@
 Aqui é a nossa página principal
 
-campo para receber nome aluno
+nova versão do campo para receber nome aluno
+background tema escuro
 código para buscar dados do aluno no banco de dados
-apresentação dos dados do aluno buscado
+apresentação dos dados do aluno buscado com novos recursos
