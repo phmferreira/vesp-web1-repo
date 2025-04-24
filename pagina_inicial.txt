@@ -5,3 +5,5 @@ novissima versão do campo para receber nome aluno
 background tema branco
 novo código para buscar dados do aluno no banco de dados
 outra apresentação dos dados do aluno buscado com novos     
+
+rodapé
