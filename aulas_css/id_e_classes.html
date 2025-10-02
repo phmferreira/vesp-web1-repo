@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Exemplo de Identificador e Classes em CSS</title>
+    <style>
+        p{
+            text-align: center;
+            color: blue;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .estilo_padrao{
+            font-weight: bold;
+            font-style: italic;
+            border: 3px solid black;
+            margin: 20px;
+            text-align: justify;
+            color: black;
+        }
+        #quarto_paragrafo{
+            text-align: right;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p style="color: palevioletred; text-align: center;" id="quarto_paragrafo">Primeiro parágrafo.</p>
+    <p class="estilo_padrao">Segundo parágrafo.</p>
+    <p class="estilo_padrao">Terceiro parágrafo.</p>
+    <p id="quarto_paragrafo" class="estilo_padrao">Quarto parágrafo.</p>
+</body>
+</html>
