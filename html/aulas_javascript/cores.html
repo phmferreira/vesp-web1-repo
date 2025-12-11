@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Cores</title>
+    <script>
+        document.addEventListener(
+            'DOMContentLoaded',
+            () => {
+                const botoes = 
+                    document.querySelectorAll('button');
+                for(const botao of botoes){
+                    botao.onclick = 
+                        () => {
+                            document.querySelector('#titulo')
+                                .style
+                                .color = botao.dataset.color;
+                        }
+                }
+            }
+        );
+
+    </script>
+</head>
+<body>
+    <h1 id="titulo">Olá, bem-vindo!</h1>
+    <button data-color="red">Vermelho</button>
+    <button data-color="green">Verde</button>
+    <button data-color="blue">Azul</button>
+</body>
+</html>

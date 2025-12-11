@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Contador</title>
+    <script>
+        // declarar atributo
+        // let -> variável local, 
+        // var -> variável global
+        // const -> atributo constante
+        let contador = 0;
+        function incrementar(){
+            contador = contador + 1;
+            // alert(`valor do contador: + ${contador}`);
+            // document.querySelector('h1').innerText = contador;
+            document
+                .querySelector('#contador')
+                .innerText = contador;
+        }
+
+        // Evento -> DOMContentLoaded
+        document.addEventListener(
+            'DOMContentLoaded',
+            function(){
+                document
+                    .querySelector('button')
+                    .onclick = incrementar;
+            }
+        )
+    </script>
+</head>
+<body>
+    <h1>Contador</h1>
+    <!-- <button onclick="incrementar();">Contar!</button> -->
+    <button>Contar!</button>
+    <p>Valor: <span id="contador">0</span></p>
+
+    
+</body>
+</html>
